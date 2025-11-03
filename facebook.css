@@ -45,7 +45,7 @@ body {
 }
 
 .login-box input {
-  width: 100%;
+  width: 300px;
   padding: 14px;
   margin-bottom: 10px;
   border: 1px solid #dddfe2;
@@ -69,7 +69,7 @@ body {
   background-color: #166fe5;
 }
 
-.forgot {
+.forget {
   display: block;
   margin: 14px 0;
   color: #1877f2;
@@ -77,7 +77,7 @@ body {
   font-size: 14px;
 }
 
-.forgot:hover {
+.forget:hover {
   text-decoration: underline;
 }
 
@@ -88,7 +88,7 @@ hr {
   margin: 20px 0;
 }
 
-.create-btn {
+.btn {
   background-color: #42b72a;
   color: white;
   border: none;
@@ -99,22 +99,23 @@ hr {
   cursor: pointer;
 }
 
-.create-btn:hover {
+.btn:hover {
   background-color: #36a420;
 }
 
-.create-page {
+.page {
   margin-top: 28px;
   font-size: 14px;
+  color: #ffffff;
 }
 
-.create-page a {
-  color: #000;
+.page a {
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
 }
 
-.create-page a:hover {
+.page a:hover {
   text-decoration: underline;
 }
 
